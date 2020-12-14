@@ -1,0 +1,132 @@
+main {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./Images/bodyIndex.jpg");
+  height: 800px;
+}
+
+header {
+  background-color: rgba(26, 76, 99, 80%);
+  padding: 20px;
+  height: 240px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 0px;
+  background-color: ;
+  width: 25%;
+  float: left;
+}
+
+#companyName {
+  width: 50%;
+  float: left;
+  margin-top: 70px;
+  background-color: ;
+}
+
+#comp_name {
+  font-size: 36pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#comp_baseline {
+  font-size: 20pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: bold;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+#headerButton {
+  width: 25%;
+  background-color: ;
+  float: right;
+  margin-top: 0px;
+}
+
+.black_button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 76, 99);
+  border-radius: 2px;
+  width: 100px;
+  display: block;
+  float: right;
+  margin-right: 5px;
+}
+
+.topnav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(26, 76, 99, 80%);
+  width: auto;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.topnav a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.topnav a.active {
+  background-color: white;
+  border-radius: 2px;
+  color: rgb(26, 76, 99);
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+.presentation {
+  margin-top: 170px;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  font-size: 30px;
+  color: white;
+  width: 40%;
+  float: right;
+}
+
+footer {
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgba(26, 76, 99, 80%);
+  padding: px;
+}
+
+footer p {
+  margin-top: -0px;
+  height: 0px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.footnav a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footnav a:hover {
+  text-decoration: underline;
+}

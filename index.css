@@ -15,7 +15,6 @@ header {
 .logo {
   margin-top: 10px;
   margin-left: 0px;
-  background-color: ;
   width: 25%;
   float: left;
 }
@@ -24,7 +23,6 @@ header {
   width: 50%;
   float: left;
   margin-top: 70px;
-  background-color: ;
 }
 
 #comp_name {
@@ -45,7 +43,6 @@ header {
 
 #headerButton {
   width: 25%;
-  background-color: ;
   float: right;
   margin-top: 0px;
 }

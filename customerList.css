@@ -7,7 +7,6 @@ header {
 .logo {
   margin-top: 10px;
   margin-left: 0px;
-  background-color: ;
   width: 25%;
   float: left;
 }
@@ -16,8 +15,7 @@ header {
   width: 50%;
   float: left;
   margin-top: 70px;
-  background-color: ;
-}
+  }
 
 #comp_name {
   font-size: 36pt;
@@ -32,13 +30,11 @@ header {
   font-style: bold;
   text-align: center;
   color: white;
-  background-color: ;
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 #headerButton {
   width: 25%;
-  background-color: ;
   float: right;
   margin-top: 0px;
 }
@@ -137,8 +133,7 @@ h1 {
 main {
   padding: 20px;
   margin-bottom: 50px;
-  background-color: ;
-}
+  }
 
 footer {
   height: 40px;

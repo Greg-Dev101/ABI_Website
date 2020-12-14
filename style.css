@@ -163,7 +163,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: rgba(26, 76, 99, 80%);
-    padding: px;
+    margin-top: -16px;
   }
   
   footer p {

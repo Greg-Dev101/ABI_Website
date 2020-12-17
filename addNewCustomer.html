@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABI - Customer list</title>
+   <link type= "text/css" rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    
+    <header>
+            
+        <a href="index.html"><img src="Images/ABI.png" class="logo" alt="logo ABI"></a>
+
+        <div id="companyName">
+        <div id="comp_name">ABI Active Bretagne Informatique</div>
+        <div id="comp_baseline">The IT Services and Engineering Company</div>
+        </div>
+      
+        <div id="headerButton">
+        <button class="black_button">logout</button>
+        <button class="black_button">login</button>
+        </div>
+    </header>
+
+    <nav class="topnav">
+        <a href="customerList.html" >customer list</a>   |
+        <a href="customerListCopie.html" >customer list</a>   |
+        <a href="addNewcustomer.html" class="active">add new customer</a>   |
+        <a href="index.html">staff list</a>   |
+        <a href="index.html">update staff data</a>   |
+        <a href="index.html">add new project</a>   |
+        <a href="index.html">on-going project</a>
+        </nav>
+
+    
+
+    <p></p>
+
+    <main id="mainOurcustomer">
+    <h1>Add new customers</h1>
+
+    <form>
+        <p>Customer nane: <input type = "text" id="nomClient" /></p>      
+        <p>Custoner ID: <input type = "text" id="numeroClient" /></p>
+        <p>Type of Customer: <input type = "text" id="typeClient" /></p>
+        <p>Field of activity: <input type = "text" id="clientField" /></p>
+        <p>Turnover: <input type = "text" id="caClient" /></p>
+        <p>Staff: <input type = "text" id="personnelClient" /></p>
+        <p>Address: <input type = "text" id="adresseClient" /></p>
+        <p>Phone: <input type = "text" id="telephoneClient" /></p>
+        <p>Contact: <input type = "text" id="contactClient" /></p>
+        <p>Comments: <input type = "text" id="commentaires" /></p>
+
+        <button>Envoyer les informations dans un tableau dans une autre page !"</button>
+
+  </form>
+
+</body>
+
+<script>
+document.querySelector("form").addEventListener("submit",(e)=>{
+  e.preventDefault();
+  const custumerName = document.getElementById("nomClient").value;
+  const numeroClient = document.getElementById("numeroClient").value;
+  const typeCustomer = document.getElementById("typeClient").value;
+  const fieldCustomer = document.getElementById("clientField").value;
+  const turnover = document.getElementById("caClient").value;
+  const staff = document.getElementById("personnelClient").value;
+  const address = document.getElementById("adresseClient").value;
+  const phone = document.getElementById("telephoneClient").value;
+  const contact = document.getElementById("contactClient").value;
+  const comments = document.getElementById("commentaires").value;
+
+
+  const url = `customerListCopie.html?custumerName=${custumerName}&numeroClient=${numeroClient}&typeClient=${typeCustomer}&clientField=${fieldCustomer}&caClient=${turnover}&personnelClient=${staff}&adresseClient=${address}&telephoneClient=${phone}&contactClient=${contact}&commentaires=${comments}`
+
+  location.replace(encodeURI(url));
+})
+
+</script>
+</html>
